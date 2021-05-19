@@ -96,6 +96,6 @@ Order robots from website
         Clean up    ${order}[Order number]
         Click Button    id:order-another
     END
-    Archive Folder With Zip     ${CURDIR}${/}output    ${CURDIR}${/}output.zip
+    Archive Folder With Zip     ${CURDIR}${/}output    ${CURDIR}${/}output${/}output.zip
 
 
